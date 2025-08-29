@@ -68,7 +68,7 @@ Install the latest version of the IDA Pro MCP package:
 
 ```sh
 pip uninstall ida-pro-mcp
-pip install git+https://github.com/mrexodia/ida-pro-mcp
+pip install git+https://github.com/formbok/clarity-ida-pro-mcp
 ```
 
 Configure the MCP servers and install the IDA Plugin:
@@ -228,3 +228,4 @@ Generate the changelog of direct commits to `main`:
 ```sh
 git log --first-parent --no-merges 1.2.0..main "--pretty=- %s"
 ```
+
