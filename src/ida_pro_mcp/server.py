@@ -10,7 +10,7 @@ from urllib.parse import urlparse
 from mcp.server.fastmcp import FastMCP
 
 # The log_level is necessary for Cline to work: https://github.com/jlowin/fastmcp/issues/81
-mcp = FastMCP("github.com/mrexodia/ida-pro-mcp", log_level="ERROR")
+mcp = FastMCP("formbok/clarity-ida-pro-mcp", log_level="ERROR")
 
 jsonrpc_request_id = 1
 ida_host = "127.0.0.1"
